@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="welcome">Welcome!</string>
+    <string name="your_name">What\`s your name?</string>
+    <string name="hi">hi</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="age">age</string>
+    <string name="weight">weight</string>
+    <string name="heigth">heigth</string>
+    <string name="calculate">calculate</string>
+</resources>
+
