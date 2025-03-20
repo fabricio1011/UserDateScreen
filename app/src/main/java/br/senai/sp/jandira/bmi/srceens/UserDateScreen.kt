@@ -51,7 +51,7 @@ import androidx.compose.ui.unit.sp
 import br.senai.sp.jandira.bmi.R
 
 @Composable
-fun Datascreen(modifier: Modifier = Modifier){
+fun UserDatascreen(modifier: Modifier = Modifier){
 
     var ageState = remember {
         mutableStateOf(value = "")
@@ -271,5 +271,5 @@ fun Datascreen(modifier: Modifier = Modifier){
 @Preview(showSystemUi = true)
 @Composable
 private fun DatascreenPreview () {
-    Datascreen()
+    UserDatascreen()
 }

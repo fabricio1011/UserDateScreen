@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import br.senai.sp.jandira.bmi.srceens.HomeScreen
+import br.senai.sp.jandira.bmi.screens.UserDatascreen
 import br.senai.sp.jandira.bmi.ui.theme.BMITheme
 
 class MainActivity : ComponentActivity() {
@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            HomeScreen()
+            UserDatascreen()
         }
     }
 }
